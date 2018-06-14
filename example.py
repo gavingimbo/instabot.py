@@ -14,13 +14,16 @@ bot = InstaBot(
     password="password",
     like_per_day=1000,
     comments_per_day=0,
-    tag_list=['follow4follow', 'f4f', 'cute'],
-    tag_blacklist=['rain', 'thunderstorm'],
+    tag_list=['food', 'foodporn', 'yum', 'instafood', 'yummy', 'drink', 'photooftheday', 'coffee', 'dessert', 'love', 'bestoftheday'
+	, 'style', 'instadaily ', 'moment', 'chocolate', 'dessertporn', 'delicious', 'eat'
+	, 'eating ', 'travel', 'instatravel', 'instagood', 'instago', 'iphoneography', 'androidography', 'photo', 'instamood', 'architecture'
+	, 'building', 'landscape', 'sky'],
+    tag_blacklist=['nsfw'],
     user_blacklist={},
     max_like_for_one_tag=50,
-    follow_per_day=300,
+    follow_per_day=0,
     follow_time=1 * 60,
-    unfollow_per_day=300,
+    unfollow_per_day=0,
     unfollow_break_min=15,
     unfollow_break_max=30,
     log_mod=0,
